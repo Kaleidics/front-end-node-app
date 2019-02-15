@@ -11,6 +11,29 @@ body {
     overflow-x: hidden;
 }
 
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0;
+    margin: 0;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+}
+.navbar li {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
 .v-header {
     height: 100vh;
     display: flex;
